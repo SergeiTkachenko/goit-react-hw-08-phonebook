@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useState } from 'react';
 import { Item } from './ContactItem.styled';
 import { useDispatch } from 'react-redux';
-import { deleteContact, editContact } from 'redux/operations';
+import { deleteContact, editContact } from 'redux/contacts/operations';
 
 export const ContactItem = ({ name, number, id }) => {
   const [editName, setEditName] = useState(name);

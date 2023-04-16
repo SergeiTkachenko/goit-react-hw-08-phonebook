@@ -3,8 +3,8 @@
 import { useEffect } from 'react';
 import { ContactItem } from '../ContactItem/ContsctItem';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectFilteredContacts } from 'redux/selectors';
-import { fetchContacts } from 'redux/operations';
+import { selectFilteredContacts } from 'redux/contacts/selectors';
+import { fetchContacts } from 'redux/contacts/operations';
 import { ContactListStyled } from './ContactList.Styled';
 
 export const ContactList = () => {

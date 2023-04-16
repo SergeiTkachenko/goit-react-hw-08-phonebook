@@ -2,9 +2,9 @@ import { Formik, Field } from 'formik';
 import { FormField, Form, ErrorMessage } from './Form.styled';
 import { object, string } from 'yup';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from 'redux/operations';
+import { addContact } from 'redux/contacts/operations';
 // import { nanoid } from 'nanoid';
-import { selectContacts } from 'redux/selectors';
+import { selectContacts } from 'redux/contacts/selectors';
 
 const ValidSchema = object().shape({
   name: string()

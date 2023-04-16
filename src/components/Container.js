@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Layout = styled.div`
+export const Container = styled.div`
   background: repeating-linear-gradient(
     135deg,
     #052650 9% 9%,
@@ -15,12 +15,13 @@ export const Layout = styled.div`
   padding: 15px;
   text-align: center;
   margin: 0 auto;
+  max-width: 1500px;
 
   justify-content: center;
   display: flex;
   gap: 10px;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
 
   border-radius: 10px;
 `;

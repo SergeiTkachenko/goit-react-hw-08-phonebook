@@ -1,5 +1,5 @@
-import { Outlet } from 'react-router-dom';
-import { Suspense } from 'react';
+// import { Outlet } from 'react-router-dom';
+// import { Suspense } from 'react';
 // import { useAuth } from 'hooks';
 import { NavLinkListStyled, NavLinkStyled } from './Navigation.styled';
 
@@ -21,12 +21,11 @@ export default function Navigation() {
             <h2>Add new contact</h2>
           </NavLinkStyled>
         </>
-        {/* )} */}
       </NavLinkListStyled>
 
-      <Suspense>
+      {/* <Suspense>
         <Outlet />
-      </Suspense>
+      </Suspense> */}
     </div>
   );
 }

@@ -44,16 +44,6 @@ h2, h3 {
 h1 {
   margin: 5px auto;
   padding: 8px;
-  width: 350px;
-
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color: #4c3ec4;
-  color: black;
-
-  /* text-align: center; */
-  /* justify-content: center; */
-  /* display: flex; */
-  /* flex-wrap: wrap; */
+  
 }
 `;
